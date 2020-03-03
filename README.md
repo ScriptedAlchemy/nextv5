@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+This project requires https://github.com/module-federation/next.js be cloned. 
+after cloning the upgraded version of next.js do the following
+`yarn install`
+`cd packages/next`
+`yarn link`
+
+Then, in the `next-webpack-5` project, `yarn link next`
 
 ## Getting Started
 
