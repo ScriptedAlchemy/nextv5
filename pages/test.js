@@ -9,7 +9,7 @@ const Home = () => (
 
     <main>
       <h1 className="title">
-        Webpack 5 on <a href="https://nextjs.org">Next.js!</a>
+        Routing to test page
       </h1>
       <p className="description">
         Get started by editing <code>pages/index.js</code>
