@@ -900,10 +900,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@module-federation/next@9.2.2-beta.13":
-  version "9.2.2-beta.13"
-  resolved "https://registry.yarnpkg.com/@module-federation/next/-/next-9.2.2-beta.13.tgz#6e1ca8bda45508afacb7471cd79107ade928cf6f"
-  integrity sha512-dhOVq2AHz9D1hADY7I3qJFh3GLFc4+X6/452LptBWYV0n9q1BnhhfTYbrEdu2kioRiy+E6+qWbBWz5nvrbXnuQ==
+"@module-federation/next@9.2.2-beta.15":
+  version "9.2.2-beta.15"
+  resolved "https://registry.yarnpkg.com/@module-federation/next/-/next-9.2.2-beta.15.tgz#3901eb31c70a51df60afb2b37cc834fffc65464f"
+  integrity sha512-Zl4qLPozcjiVasNwZx+xWeR3FQL7w5Kftirv1EQHfhRKdGmu0nXuUZwaGCzxv+wvx4H1OtqlHG2klLVoffclxQ==
   dependencies:
     "@ampproject/toolbox-optimizer" "2.0.0"
     "@babel/core" "7.7.2"
