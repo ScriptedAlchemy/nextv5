@@ -7,8 +7,12 @@
     "build": "next build",
     "start": "next start"
   },
+  "resolutions": {
+    "webpack": "git+https://github.com/webpack/webpack.git#mf/initial-shared"
+  },
   "dependencies": {
-    "@module-federation/next": "9.2.2-beta.15",
+    "next": "^10.0.0",
+    "webpack": "git+https://github.com/webpack/webpack.git#mf/initial-shared",
     "react": "16.13.0",
     "react-dom": "16.13.0"
   }
