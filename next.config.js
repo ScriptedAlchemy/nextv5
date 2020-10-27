@@ -5,7 +5,17 @@ module.exports = {
   webpack: (config, {buildId, dev, isServer, defaultLoaders, webpack}) => {
     // Note: we provide webpack above so you should not `require` it
     // Perform customizations to webpack config
-console.log(config.plugin);
+
+    //this disables react refresh
+    // if (config.module.rules[1].use[1]) {
+    //   Object.assign(config.module.rules[1].use[1].options, {hasReactRefresh: false})
+    // }
+    // console.log(config.module.rules[1].use)
+    // if(Array.isArray(config.module.rules[1].use)){
+    //   config.module.rules[1].use.unshift()
+    // }
+    // config.plugins.shift();
+
     config.plugins.push(new webpack.container.ModuleFederationPlugin({
       name: 'next1',
       filename: 'static/remoteEntry.js',
@@ -13,7 +23,7 @@ console.log(config.plugin);
         next1: 'next1@http://localhost:3000/_next/static/remoteEntry.js'
       },
       shared: {
-        react:deps.react
+        react: deps.react
       }
     }))
     config.experiments = {
